@@ -1,0 +1,22 @@
+[project]
+name = "enterprise-hybrid-rag"
+version = "0.1.0"
+description = "Hybrid, agentic RAG backend combining Postgres, Qdrant, Neo4j, and Redis."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "langchain>=0.1.16",
+    "langgraph>=0.0.35",
+    "qdrant-client>=1.8.0",
+    "neo4j>=5.18.0",
+    "redis>=5.0.3",
+    "psycopg2-binary>=2.9.9",
+    "duckdb>=0.10.0",
+    "sqlglot>=23.6.0",
+    "deepeval>=1.2.0",
+    "chainlit>=1.1.40",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.6.4",
+    "pydantic-settings>=2.2.1"
+]
